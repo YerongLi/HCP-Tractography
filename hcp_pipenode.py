@@ -6,8 +6,8 @@ import nibabel as nib
 from os.path import join as pjoin
 from dipy.io import read_bvals_bvecs
 from dipy.core.gradients import gradient_table
-from dipy.align.aniso2iso import resample
-from dipy.align.aniso2iso import reslice
+#from dipy.align.reslice import resample
+from dipy.align.reslice import reslice
 from dipy.reconst.dti import TensorModel
 from dipy.data import get_sphere
 from dipy.tracking.utils import seeds_from_mask
